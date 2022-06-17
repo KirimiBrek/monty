@@ -1,16 +1,16 @@
 # monty
-# # # # # # C - Description
+# C - Description
 '''
 
-* This Holberton School project is a custom ByteCode interpreter, coded in C. Compilation: gcc -Wall -Werror -Wextra -pedantic *.c -o monty Usage: ./monty byte_file.m *
+* This Holberton School project is a custom ByteCode interpreter, coded in C. Compilation: gcc -Wall -Werror -Wextra -pedantic *.c -o monty Usage: ./monty byte_file.m 
 
 '''
 
 The program reads from the file "byte_file.m" that contains one instruction per line. It then calls the right function to modify a stack according to the instruction. It prints custom error messages if the instruction is wrong.Stacks, Queues - LIFO, FIFO
 
-# # Table of contents
+## Table of contents
 
-| # # # # # File    |  Description                     |
+| * File             |  Description                 *    |
 | ----------------- | -------------------------------  |
 |main.c	            | entry point of the program |
 |monty.h            |	main header file |
